@@ -6,11 +6,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://taskflow-backend.onrender.com/api/$1"
+      "destination": "https://taskflow-backend-tu8k.onrender.com/$1"
     },
     {
       "source": "/api-docs",
-      "destination": "https://taskflow-backend.onrender.com/api-docs"
+      "destination": "https://taskflow-backend-tu8k.onrender.com"
     },
     {
       "source": "/(.*)",
