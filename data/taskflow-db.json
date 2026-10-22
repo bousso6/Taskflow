@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "name": "Amadou Diallo",
+      "email": "admin@taskflow.dev",
+      "passwordHash": "$2b$10$n3ixYF362SzZ9EXyXJ79Furzr0mbpDJtS3hoM6j49r3Mbk2RiFwSS",
+      "role": "ADMIN",
+      "jobTitle": "Directeur Technique (CTO)",
+      "department": "Direction & Architecture",
+      "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-09-22T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "usr-fatou-02",
+      "name": "Fatou Bintou Sow",
+      "email": "fatou.sow@taskflow.dev",
+      "passwordHash": "$2b$10$L/OwUXhjg50LKnLKsviFiuOpjZwiQyqJF3sq20sSHAHVAtiWKUr.G",
+      "role": "USER",
+      "jobTitle": "Lead Frontend Engineer",
+      "department": "Ingénierie Web",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-09-27T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "usr-cheikh-03",
+      "name": "Cheikh Tidiane Ndiaye",
+      "email": "cheikh.ndiaye@taskflow.dev",
+      "passwordHash": "$2b$10$L/OwUXhjg50LKnLKsviFiuOpjZwiQyqJF3sq20sSHAHVAtiWKUr.G",
+      "role": "USER",
+      "jobTitle": "Backend & Cloud DevOps Engineer",
+      "department": "Infrastructure Cloud",
+      "avatarUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-10-02T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "usr-aissatou-04",
+      "name": "Aïssatou Diop",
+      "email": "aissatou.diop@taskflow.dev",
+      "passwordHash": "$2b$10$L/OwUXhjg50LKnLKsviFiuOpjZwiQyqJF3sq20sSHAHVAtiWKUr.G",
+      "role": "USER",
+      "jobTitle": "Lead Product Designer UI/UX",
+      "department": "Design & Ergonomie",
+      "avatarUrl": "https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-10-07T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "usr-moussa-05",
+      "name": "Moussa Fall",
+      "email": "moussa.fall@taskflow.dev",
+      "passwordHash": "$2b$10$L/OwUXhjg50LKnLKsviFiuOpjZwiQyqJF3sq20sSHAHVAtiWKUr.G",
+      "role": "USER",
+      "jobTitle": "Ingénieur QA & Sécurité",
+      "department": "Qualité Logicielle",
+      "avatarUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-10-12T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-fintech-dakar",
+      "name": "Plateforme FinTech Teranga Pay",
+      "description": "Développement de l’API de paiement instantané mobile money (Wave, Orange Money) et passerelle bancaire.",
+      "color": "#ff2d75",
+      "ownerId": "usr-admin-01",
+      "members": [
+        {
+          "userId": "usr-admin-01",
+          "role": "OWNER",
+          "joinedAt": "2026-10-02T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-fatou-02",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-04T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-cheikh-03",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-04T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-aissatou-04",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-07T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-moussa-05",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-12T11:19:28.880Z"
+        }
+      ],
+      "createdAt": "2026-10-02T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "prj-port-logistique",
+      "name": "Portail Logistique Port de Dakar",
+      "description": "Automatisation du suivi des conteneurs, dédouanement et interconnexion API des transporteurs.",
+      "color": "#ec4899",
+      "ownerId": "usr-cheikh-03",
+      "members": [
+        {
+          "userId": "usr-cheikh-03",
+          "role": "OWNER",
+          "joinedAt": "2026-10-10T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-admin-01",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-10T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-fatou-02",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-12T11:19:28.880Z"
+        }
+      ],
+      "createdAt": "2026-10-10T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "prj-senservices",
+      "name": "Portail Numérique SenServices",
+      "description": "Architecture des micro-services administratifs, authentification citoyenne et conformité d’accessibilité.",
+      "color": "#fb7185",
+      "ownerId": "usr-aissatou-04",
+      "members": [
+        {
+          "userId": "usr-aissatou-04",
+          "role": "OWNER",
+          "joinedAt": "2026-10-14T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-fatou-02",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-15T11:19:28.880Z"
+        },
+        {
+          "userId": "usr-admin-01",
+          "role": "MEMBER",
+          "joinedAt": "2026-10-15T11:19:28.880Z"
+        }
+      ],
+      "createdAt": "2026-10-14T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk-01",
+      "title": "Mettre en place la documentation Swagger OpenAPI 3.0",
+      "description": "Exposer la spécification OpenAPI à /api/openapi.json et monter l’interface Swagger UI sur /api-docs.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "dueDate": "2026-10-19",
+      "assignedUserId": "usr-cheikh-03",
+      "projectId": "prj-fintech-dakar",
+      "createdById": "usr-admin-01",
+      "createdAt": "2026-10-07T11:19:28.880Z",
+      "updatedAt": "2026-10-12T11:19:28.880Z"
+    },
+    {
+      "id": "tsk-02",
+      "title": "Hachage bcrypt et middleware d’authentification JWT",
+      "description": "Sécuriser les mots de passe utilisateurs et implémenter la vérification de token Bearer avec expiration.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "dueDate": "2026-10-19",
+      "assignedUserId": "usr-cheikh-03",
+      "projectId": "prj-fintech-dakar",
+      "createdById": "usr-admin-01",
+      "createdAt": "2026-10-08T11:19:28.880Z",
+      "updatedAt": "2026-10-14T11:19:28.880Z"
+    },
+    {
+      "id": "tsk-03",
+      "title": "Composants du Backoffice Administrateur TaskFlow",
+      "description": "Concevoir l’interface de supervision épurée avec KPIs, Kanban des tâches et gestion des autorisations.",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "dueDate": "2026-10-24",
+      "assignedUserId": "usr-fatou-02",
+      "projectId": "prj-fintech-dakar",
+      "createdById": "usr-admin-01",
+      "createdAt": "2026-10-15T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "tsk-04",
+      "title": "Intégration passerelle Mobile Money (Wave & Orange Money)",
+      "description": "Vérifier la signature des webhooks entrants et enregistrer les transactions idempotentes.",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "dueDate": "2026-10-24",
+      "assignedUserId": "usr-cheikh-03",
+      "projectId": "prj-fintech-dakar",
+      "createdById": "usr-admin-01",
+      "createdAt": "2026-10-17T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "tsk-05",
+      "title": "Audit de sécurité des rôles RBAC (ADMIN vs USER)",
+      "description": "Vérifier que les routes d’administration et suppression globale ne sont accessibles qu’aux administrateurs.",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-10-19",
+      "assignedUserId": "usr-admin-01",
+      "projectId": "prj-fintech-dakar",
+      "createdById": "usr-admin-01",
+      "createdAt": "2026-10-16T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "tsk-06",
+      "title": "API de géolocalisation des convois portuaires",
+      "description": "Calculer les temps d’attente aux postes de douane et notifier les transporteurs par SMS.",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-01",
+      "assignedUserId": "usr-cheikh-03",
+      "projectId": "prj-port-logistique",
+      "createdById": "usr-cheikh-03",
+      "createdAt": "2026-10-18T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "tsk-07",
+      "title": "Tests unitaires du dédouanement automatisé",
+      "description": "Vérifier la validation des manifestes maritimes et la génération des reçus certifiés.",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-01",
+      "assignedUserId": "usr-fatou-02",
+      "projectId": "prj-port-logistique",
+      "createdById": "usr-cheikh-03",
+      "createdAt": "2026-10-19T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "tsk-08",
+      "title": "Design System Rose, Noir et Blanc & Accessibilité",
+      "description": "Application de la charte visuelle contrastée avec ombres portées élégantes et conformité WCAG AA.",
+      "status": "DONE",
+      "priority": "MEDIUM",
+      "dueDate": "2026-10-19",
+      "assignedUserId": "usr-aissatou-04",
+      "projectId": "prj-senservices",
+      "createdById": "usr-aissatou-04",
+      "createdAt": "2026-10-14T11:19:28.880Z",
+      "updatedAt": "2026-10-18T11:19:28.880Z"
+    },
+    {
+      "id": "tsk-09",
+      "title": "Optimisation de la vitesse de chargement sur réseau 4G",
+      "description": "Compresser les payloads JSON, activer la mise en cache et auditer le bundle JavaScript.",
+      "status": "IN_PROGRESS",
+      "priority": "LOW",
+      "dueDate": "2026-11-01",
+      "assignedUserId": "usr-moussa-05",
+      "projectId": "prj-senservices",
+      "createdById": "usr-aissatou-04",
+      "createdAt": "2026-10-20T11:19:28.880Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    },
+    {
+      "id": "tsk-10",
+      "title": "Guide de déploiement Render et Vercel",
+      "description": "Documenter les variables d’environnement, scripts de build et fichiers de configuration de production.",
+      "status": "TODO",
+      "priority": "LOW",
+      "dueDate": "2026-11-01",
+      "assignedUserId": null,
+      "projectId": "prj-fintech-dakar",
+      "createdById": "usr-admin-01",
+      "createdAt": "2026-10-22T11:19:28.878Z",
+      "updatedAt": "2026-10-22T11:19:28.878Z"
+    }
+  ],
+  "version": 1
+}

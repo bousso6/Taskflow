@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #09090b;
+    color: #f4f4f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Tabular figures for data integrity */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Prominent, high-contrast box shadows for dark mode cards */
+.card-shadow {
+  box-shadow: 0 10px 28px -4px rgba(0, 0, 0, 0.85), 0 2px 8px -2px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.card-shadow-kpi {
+  box-shadow: 0 12px 32px -6px rgba(0, 0, 0, 0.9), 0 4px 12px -2px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.card-shadow-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-shadow-hover:hover {
+  border-color: rgba(255, 45, 117, 0.5) !important;
+  box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.95), 0 0 20px rgba(255, 45, 117, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}

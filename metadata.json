@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow - API REST & Backoffice Admin",
+  "description": "Plateforme professionnelle de gestion de projets, d'équipes et de tâches avec API REST sécurisée, documentation Swagger interactive et backoffice administrateur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
